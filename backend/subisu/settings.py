@@ -25,7 +25,7 @@ SECRET_KEY = 'u4v5@+3s)wvny2c6o2*fq#w6q#k%)k3l0f$(_r-uv*r38&k8tp'
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = True
 
-ALLOWED_HOSTS = []
+ALLOWED_HOSTS = ["localhost","backend","subisu_backend"]
 
 
 # Application definition
