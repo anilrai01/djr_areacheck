@@ -1,0 +1,37 @@
+.sidebar{
+		position:absolute;
+		max-width:240px;
+		width:70%;
+		border:1px solid rgba(0,0,0,0.1);
+		box-shadow: 2px 0 5px rgba(0,0,0,0.2);
+		height:100%;
+		transform:translateX(-100%);
+		transition: all 0.2s linear;
+		animation-name: slideFromLeft;
+		z-index:200;
+		background:#fff;
+}
+.sidebar.show{
+		transform:translateX(0)
+}
+
+.btnHolder{
+		display:flex;
+		padding:16px;
+}
+.appName{
+		margin-left:1rem;
+}
+
+.sub_menu{
+		/* transition:all 0.5s ease-in-out; */
+}
+
+@keyframes slideFromLeft{
+		0%{
+				transform:translateX(-100%)
+		}
+		100%{
+				transform:translateX(0)
+		}
+}

@@ -1,0 +1,30 @@
+*{
+		margin:0;
+		padding:0;
+}
+.navbar{
+		margin:0;
+		padding:0;
+		width:100%;
+		/* background:#666; */
+		color:#fff;
+		height:56px;
+}
+#brand img{
+		height:inherit;
+		width:100px;
+}
+.navbar_nav{
+		display:flex;
+		align-items:center;
+		height:100%;
+		padding:0 1rem;
+		width:100%;
+}
+.spacer{
+		flex:1;
+}
+
+.settingButton{
+		cursor:pointer;
+}
