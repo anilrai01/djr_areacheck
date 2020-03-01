@@ -13,7 +13,7 @@ export default class Hostlist extends Component{
 
 		getTodo(){
 				axios
-						.get('http://backend/api/v1/')
+						.get('http://localhost:8000/api/v1/')
 						.then(res => {
 								this.setState({hostlist:res.data})
 						})
